@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0895060-3eda-45d7-a256-ed2377fad0cc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web/Database.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SpringBootWithSwagger" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="用户.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/用户.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="177" column="33" selection-start-line="176" selection-start-column="11" selection-end-line="177" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="185" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="185" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="工作人员.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/工作人员.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="43" column="72" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>UserController</find>
+      <find>json</find>
+      <find>worker_id</find>
+      <find>worker_Id</find>
+      <find>worker_Name</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resourece/swagger-ui.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/swagger-ui.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/domain/Paper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/论文.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/domain/dept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/domain/Dept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/部门.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/domain/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/graphql.java" />
+        <option value="$PROJECT_DIR$/src/main/server.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/webjars/css/global.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/docs.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad620713-ba7a-4250-a50d-1af1082e90bb/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/web/UserRepository.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c959011d-066e-4eea-9153-7aa88d341ec1/console_1.sql" />
+        <option value="c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user/index/workername" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Database.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/WorkerController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/web/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Application.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c959011d-066e-4eea-9153-7aa88d341ec1/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/web/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/用户.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/工作人员.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Swagger2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/web/Database.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springtest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="180" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringBootWithSwagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootAndSql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootWithSwagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootAndSql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootWithSwagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootAndSql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootWithSwagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootAndSql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootWithSwagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootAndSql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootWithSwagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootAndSql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootWithSwagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootAndSql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="swagger-ui&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/io/springfox/springfox-swagger-ui/2.5.0/springfox-swagger-ui-2.5.0.jar!/META-INF/resources/swagger-ui.html" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.domain" />
+      <recent name="com.example.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringBootTest\src\main" />
+      <recent name="E:\SpringBootTest\src\main\java\com\example" />
+      <recent name="E:\SpringBootTest\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Database" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Database" />
+      <module name="SpringBootWithSwagger" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="SpringBootWithSwagger" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="swagger-ui.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/SpringBootWithSwagger/springfox-swagger-ui-2.5.0.jar/META-INF/resources/swagger-ui.html" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBootWithSwagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="JavaScript Debug.swagger-ui.html" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.Database" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Database" />
+        <item itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0895060-3eda-45d7-a256-ed2377fad0cc" name="Default" comment="" />
+      <created>1546847444647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546847444647</updated>
+      <workItem from="1546847446453" duration="483000" />
+      <workItem from="1546848196849" duration="2038000" />
+      <workItem from="1546850404283" duration="240000" />
+      <workItem from="1546851603382" duration="303000" />
+      <workItem from="1546851926998" duration="122000" />
+      <workItem from="1546852285147" duration="398000" />
+      <workItem from="1546852703814" duration="342000" />
+      <workItem from="1546853075667" duration="2065000" />
+      <workItem from="1546868551952" duration="925000" />
+      <workItem from="1546909193394" duration="4261000" />
+      <workItem from="1546913478841" duration="90000" />
+      <workItem from="1546913673734" duration="137000" />
+      <workItem from="1546913877845" duration="51000" />
+      <workItem from="1546914059698" duration="15000" />
+      <workItem from="1546914089585" duration="2524000" />
+      <workItem from="1546916680601" duration="1892000" />
+      <workItem from="1546918633312" duration="2655000" />
+      <workItem from="1546927362057" duration="2708000" />
+      <workItem from="1546935519808" duration="1722000" />
+      <workItem from="1546999505629" duration="121000" />
+      <workItem from="1546999659043" duration="11000" />
+      <workItem from="1547001601279" duration="508000" />
+      <workItem from="1547002335709" duration="1433000" />
+      <workItem from="1547004073279" duration="413000" />
+      <workItem from="1547005243963" duration="962000" />
+      <workItem from="1547013548845" duration="737000" />
+      <workItem from="1547018673606" duration="679000" />
+      <workItem from="1547019672023" duration="662000" />
+      <workItem from="1547022592708" duration="606000" />
+      <workItem from="1547023488596" duration="20000" />
+      <workItem from="1547099626391" duration="1273000" />
+      <workItem from="1547102645877" duration="1362000" />
+      <workItem from="1547105563004" duration="151000" />
+      <workItem from="1547107708424" duration="963000" />
+      <workItem from="1547174549087" duration="31000" />
+      <workItem from="1547174603196" duration="52000" />
+      <workItem from="1547174683679" duration="15000" />
+      <workItem from="1547186908166" duration="3026000" />
+      <workItem from="1547190058151" duration="361000" />
+      <workItem from="1547190622084" duration="2680000" />
+      <workItem from="1547193413679" duration="73000" />
+      <workItem from="1547193689051" duration="218000" />
+      <workItem from="1547454571292" duration="1169000" />
+      <workItem from="1547458835241" duration="507000" />
+      <workItem from="1547514272499" duration="3216000" />
+      <workItem from="1547521002026" duration="1150000" />
+      <workItem from="1547530483893" duration="181000" />
+      <workItem from="1547530854672" duration="233000" />
+      <workItem from="1547531109769" duration="2116000" />
+      <workItem from="1547533308601" duration="907000" />
+      <workItem from="1547535114201" duration="500000" />
+      <workItem from="1547535652170" duration="6933000" />
+      <workItem from="1547542659617" duration="3695000" />
+      <workItem from="1547600596950" duration="1335000" />
+      <workItem from="1547602802236" duration="12089000" />
+      <workItem from="1547621455569" duration="5000" />
+      <workItem from="1547624608213" duration="9000" />
+      <workItem from="1547624855413" duration="7679000" />
+      <workItem from="1547686983872" duration="7273000" />
+      <workItem from="1547695909308" duration="5509000" />
+      <workItem from="1547706756908" duration="303000" />
+      <workItem from="1547708169079" duration="719000" />
+      <workItem from="1547709110140" duration="197000" />
+      <workItem from="1547710657097" duration="101000" />
+      <workItem from="1547710790041" duration="1084000" />
+      <workItem from="1547714619390" duration="21000" />
+      <workItem from="1547714664429" duration="1413000" />
+      <workItem from="1547718130123" duration="730000" />
+      <workItem from="1547775919898" duration="1184000" />
+      <workItem from="1547777768548" duration="338000" />
+      <workItem from="1547778441513" duration="1300000" />
+      <workItem from="1547780047622" duration="9000" />
+      <workItem from="1547792981875" duration="752000" />
+      <workItem from="1547801089719" duration="40000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1547714810742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547714810743</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="102025000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Tool Output" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.16957104" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="8" />
+      <window_info id="Structure" order="1" sideWeight="0.50736845" side_tool="true" weight="0.19235925" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281471" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3281471" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32909605" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49222064" visible="true" weight="0.17895442" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.3297587" />
+      <window_info id="Web" order="6" sideWeight="0.50706214" side_tool="true" weight="0.17493297" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" sideWeight="0.50736845" side_tool="true" weight="0.19235925" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32909605" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/server.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/resources/webjars/js/docs.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/resources/webjars/js/docs.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/examples/api-debug.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/examples/wechat_group.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/examples/api-info.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webjars/css/global.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webjars/css/jquery.json-viewer.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webjars/layui/images/face/0.gif" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webjars/js/jquery.json-viewer.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webjars/layui/layui.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/docs.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webjars/js/docs.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/webjars/layui/images/face/1.gif" />
+    <entry file="file://$PROJECT_DIR$/target/classes/docs.html" />
+    <entry file="file://$PROJECT_DIR$/SpringBootWithSwagger.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="67" column="77" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ad620713-ba7a-4250-a50d-1af1082e90bb/schema/user/table/runoob_tbl" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad620713-ba7a-4250-a50d-1af1082e90bb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ad620713-ba7a-4250-a50d-1af1082e90bb/schema/user/table/table_name" />
+    <entry file="das://ad620713-ba7a-4250-a50d-1af1082e90bb/schema/user/table/user" />
+    <entry file="das://ad620713-ba7a-4250-a50d-1af1082e90bb/schema/user/table/worker" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/UserRepository.java" />
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/rundoob/table/websites" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c959011d-066e-4eea-9153-7aa88d341ec1/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user_1" />
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user/index/workername" />
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user" />
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Database.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/swagger-bootstrap-ui/1.8.8/swagger-bootstrap-ui-1.8.8.jar!/META-INF/resources/webjars/bycdao-ui/images/api.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/swagger-bootstrap-ui/1.8.8/swagger-bootstrap-ui-1.8.8.jar!/META-INF/resources/webjars/bycdao-ui/bootstrap-tabx/img/loading.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/swagger-bootstrap-ui/1.8.8/swagger-bootstrap-ui-1.8.8.jar!/META-INF/resources/doc.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c959011d-066e-4eea-9153-7aa88d341ec1/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="108" selection-start-column="108" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/worker">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c959011d-066e-4eea-9153-7aa88d341ec1/schema/flyrise/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/web/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="185" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/工作人员.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="43" column="72" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/用户.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="177" column="33" selection-start-line="176" selection-start-column="11" selection-end-line="177" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SpringBootWithSwagger</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
