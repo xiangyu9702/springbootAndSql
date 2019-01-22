@@ -31,7 +31,7 @@ public class Swagger2 {
                 "版本1.0",
                 "http://www.google.com/",
                 "联系人邮箱",
-                "飞企互联",
+                "",
                 "http://www.google.com/");
         return apiInfo;
     }
