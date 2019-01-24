@@ -1,23 +1,14 @@
 package com.example.web.course;
 
-
-
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
-
+/*
+课程的实体类
+ */
 public class Course {
-
     private Long courseId;
-
     private String courseName;
-
     private Long majorId;
-
     private String majorName;
-
     private Long teacherId;
-
     private String teacherName;
 
     public Long getTeacherId() {

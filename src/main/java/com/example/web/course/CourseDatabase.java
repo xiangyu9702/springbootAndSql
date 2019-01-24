@@ -1,11 +1,18 @@
 package com.example.web.course;
 
 import com.example.web.Database;
-
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+课程的数据库方法
+getCourseMap：从数据库获取课程信息
+deleteCourse：从数据库删除课程信息
+saveCourse：保存新的课程信息
+updateCourse:更新课程信息
+ */
 public class CourseDatabase {
     public static Map<Long, Course> getCourseMap() {
         Map<Long, Course> courseMap = new HashMap<>();
@@ -23,20 +30,20 @@ public class CourseDatabase {
                     " where major.majorId=course.majorId and course.teacherId=teacher.teacherId";
             ResultSet courseRs = stmt.executeQuery(sql);
             while (courseRs.next()) {
-                long coursetId = courseRs.getLong("courseId");
+                long courseId = courseRs.getLong("courseId");
                 String courseName = courseRs.getString("courseName");
                 Long majorId = courseRs.getLong("majorId");
                 String majorName = courseRs.getString("majorName");
                 Long teacherId=courseRs.getLong("teacherId");
                 String teacherName=courseRs.getString("teacherName");
                 Course c = new Course();
-                c.setCourseId(coursetId);
+                c.setCourseId(courseId);
                 c.setMajorName(majorName);
                 c.setCourseName(courseName);
                 c.setMajorId(majorId);
                 c.setTeacherName(teacherName);
                 c.setTeacherId(teacherId);
-                courseMap.put(coursetId,c);
+                courseMap.put(courseId,c);
             }
             courseRs.close();
             stmt.close();
@@ -84,6 +91,7 @@ public class CourseDatabase {
         } catch (Exception e) {
             // 处理 Class.forName 错误
             e.printStackTrace();
+            return "失败";
         } finally {
             // 关闭资源
             try {
@@ -128,6 +136,7 @@ public class CourseDatabase {
         } catch (Exception e) {
             // 处理 Class.forName 错误
             e.printStackTrace();
+            return "失败";
         } finally {
             // 关闭资源
             try {
@@ -143,7 +152,7 @@ public class CourseDatabase {
         return "保存成功";
     }
 
-    public static String updateCourse( Long id, Course course) {
+    public static String updateCourse(Long id, Course course) {
         Connection conn = null;
         PreparedStatement stmt = null;
         try{
@@ -154,7 +163,7 @@ public class CourseDatabase {
             // 执行
             System.out.println("执行更新功能");
             String sql;
-            sql = "update course set courseId=?,courseName=?,majorId?,teacherId=? where courseId = ?";
+            sql = "update course set courseId=?,courseName=?,majorId=?,teacherId=? where courseId =?";
             stmt = conn.prepareStatement(sql);
             stmt.setLong(1,course.getCourseId());
             stmt.setString(2,course.getCourseName());
@@ -171,6 +180,7 @@ public class CourseDatabase {
         }catch(Exception e){
             // 处理 Class.forName 错误
             e.printStackTrace();
+            return "失败";
         }finally{
             // 关闭资源
             try{
@@ -183,9 +193,7 @@ public class CourseDatabase {
                 se.printStackTrace();
             }
         }
-        return "更新用户详细信息成功";
+        return "更新信息成功";
     }
-
-
 }
 

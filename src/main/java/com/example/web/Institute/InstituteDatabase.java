@@ -1,6 +1,7 @@
 package com.example.web.Institute;
 
 import com.example.web.Database;
+import com.example.web.course.Course;
 import com.example.web.major.Major;
 import com.example.web.major.MajorDatabase;
 
@@ -8,7 +9,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
+/*
+学院的数据库方法
+getInstituteMap：从数据库获取学院信息
+deleteInstitute：从数据库删除学院信息
+saveInstitute：保存新的学院信息
+updateInstitute:更新学院信息
+ */
 public class InstituteDatabase {
     public static Map<Long,Institute> getInstituteMap() {
         Map<Long,Institute> instituteMap=new HashMap<>();
@@ -29,7 +36,7 @@ public class InstituteDatabase {
             while (instituteRs.next()) {
                 long instituteId = instituteRs.getLong("instituteId");
                 String instituteName = instituteRs.getString("instituteName");
-                long numberOfMajor = instituteRs.getInt("numberOfMajor");
+                int numberOfMajor = instituteRs.getInt("numberOfMajor");
                 Institute i = new Institute();
                 i.setInstituteName(instituteName);
                 i.setInstituteId((instituteId));
@@ -70,9 +77,7 @@ public class InstituteDatabase {
     }
 
     public static String saveInstitute(Institute Institute) {
-        for (Major m:Institute.getMajorArrayList()){
-            MajorDatabase.saveMajor(m);
-        }
+        Map<Long, Institute> userMap=new HashMap<>();
         Connection conn = null;
         PreparedStatement stmt = null;
         try {
@@ -86,7 +91,7 @@ public class InstituteDatabase {
             stmt = conn.prepareStatement(sql);
             stmt.setLong(1, Institute.getInstituteId());
             stmt.setString(2, Institute.getInstituteName());
-            stmt.setLong(3, Institute.getNumberOfMajor());
+            stmt.setInt(3, Institute.getNumberOfMajor());
             try {
                 stmt.executeUpdate();
             }
@@ -101,6 +106,7 @@ public class InstituteDatabase {
         } catch (Exception e) {
             // 处理 Class.forName 错误
             e.printStackTrace();
+            return "失败";
         } finally {
             // 关闭资源
             try {
@@ -138,6 +144,7 @@ public class InstituteDatabase {
         } catch (Exception e) {
             // 处理 Class.forName 错误
             e.printStackTrace();
+            return "失败";
         } finally {
             // 关闭资源
             try {
@@ -152,12 +159,10 @@ public class InstituteDatabase {
         }
         return "删除失败";
     }
+
     public static String updateInstitute( Long id, Institute institute) {
         Connection conn = null;
         PreparedStatement stmt = null;
-        for (Major m:institute.getMajorArrayList()){
-            MajorDatabase.updateMajor(m.getMajorId(),m);
-        }
         try{
             // 注册 JDBC 驱动
             Class.forName(Database.JDBC_DRIVER);
@@ -182,6 +187,7 @@ public class InstituteDatabase {
         }catch(Exception e){
             // 处理 Class.forName 错误
             e.printStackTrace();
+            return "失败";
         }finally{
             // 关闭资源
             try{
@@ -196,5 +202,4 @@ public class InstituteDatabase {
         }
         return "更新详细信息成功";
     }
-
 }

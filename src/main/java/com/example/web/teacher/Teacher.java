@@ -1,16 +1,14 @@
 package com.example.web.teacher;
 
 
+/*
+教师的实体类
+ */
 public class Teacher {
-
     private Long teacherId;
-
     private String teacherName;
-
     private String teacherSex;
-
     private Long instituteId;
-
     private String instituteName;
 
     public Long getInstituteId() {

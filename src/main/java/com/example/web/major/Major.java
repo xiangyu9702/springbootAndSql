@@ -1,21 +1,19 @@
 package com.example.web.major;
 
 
+/*
+专业的实体类
+ */
+
 import com.example.web.course.Course;
 
 import java.util.ArrayList;
 
 public class Major {
-
-
     private Long majorId;
-
     private String majorName;
-
     private Long instituteId;
-
     private String instituteName;
-
     private ArrayList<Course> courseArrayList;
 
     public String getInstituteName() {

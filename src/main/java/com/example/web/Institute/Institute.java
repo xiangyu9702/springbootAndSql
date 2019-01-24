@@ -1,16 +1,17 @@
 package com.example.web.Institute;
 
+
 import com.example.web.major.Major;
 
 import java.util.ArrayList;
 
-
+/*
+学院的实体类
+ */
 public class Institute {
     private Long instituteId;
-
     private String instituteName;
-
-    private Long numberOfMajor;
+    private Integer numberOfMajor;
 
     private ArrayList<Major> majorArrayList;
 
@@ -26,6 +27,10 @@ public class Institute {
         return instituteId;
     }
 
+    public void setNumberOfMajor(Integer numberOfMajor) {
+        this.numberOfMajor = numberOfMajor;
+    }
+
     public void setInstituteId(Long instituteId) {
         this.instituteId = instituteId;
     }
@@ -38,11 +43,9 @@ public class Institute {
         this.instituteName = instituteName;
     }
 
-    public Long getNumberOfMajor() {
+    public Integer getNumberOfMajor() {
         return numberOfMajor;
     }
 
-    public void setNumberOfMajor(Long numberOfMajor) {
-        this.numberOfMajor = numberOfMajor;
-    }
+
 }

@@ -8,7 +8,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
+/*
+专业的数据库方法
+getMajorMap：从数据库获取专业信息
+deleteMajor：从数据库删除专业信息
+saveMajor：保存新的专业信息
+updateMajor:更新专业信息
+ */
 public class MajorDatabase {
     public static Map<Long, Major> getMajorMap() {
         Map<Long, Major> majorMap = new HashMap<>();
@@ -90,6 +96,7 @@ public class MajorDatabase {
         } catch (Exception e) {
             // 处理 Class.forName 错误
             e.printStackTrace();
+            return "失败";
         } finally {
             // 关闭资源
             try {
@@ -107,9 +114,6 @@ public class MajorDatabase {
     public static String saveMajor(Major major) {
         Connection conn = null;
         PreparedStatement stmt = null;
-        for (Course c:major.getCourseArrayList()){
-            CourseDatabase.saveCourse(c);
-        }
         try {
             // 注册 JDBC 驱动
             Class.forName("com.mysql.jdbc.Driver");
@@ -136,6 +140,7 @@ public class MajorDatabase {
         } catch (Exception e) {
             // 处理 Class.forName 错误
             e.printStackTrace();
+            return "失败";
         } finally {
             // 关闭资源
             try {
@@ -180,6 +185,7 @@ public class MajorDatabase {
         }catch(Exception e){
             // 处理 Class.forName 错误
             e.printStackTrace();
+            return "失败";
         }finally{
             // 关闭资源
             try{
@@ -194,5 +200,4 @@ public class MajorDatabase {
         }
         return "更新详细信息成功";
     }
-
 }

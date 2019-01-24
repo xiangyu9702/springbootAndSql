@@ -1,22 +1,10 @@
 package com.example.controller;
 
-import com.example.web.Database;
-import com.example.web.Institute.Institute;
-import com.example.web.Institute.InstituteDatabase;
-import com.example.web.course.Course;
-import com.example.web.course.CourseDatabase;
-import com.example.web.major.Major;
-import com.example.web.major.MajorDatabase;
-import com.example.web.student.Student;
-import com.example.web.student.StudentDatabase;
 import com.example.web.teacher.Teacher;
 import com.example.web.teacher.TeacherDatabase;
 import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
-
-import java.sql.*;
 import java.util.*;
-
 
 @RestController
 @RequestMapping(value="/教师")
