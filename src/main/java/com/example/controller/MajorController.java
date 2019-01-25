@@ -12,9 +12,9 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value="/专业")
-public class 专业 {
+public class MajorController {
     private Map<Long, Major> majorMap = new HashMap<>();
-    public 专业() {
+    public MajorController() {
         this.majorMap = MajorDatabase.getMajorMap();
     }
     /*

@@ -12,9 +12,9 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value="/学院")
-public class 学院 {
+public class InstituteController {
     private Map<Long, Institute> instituteMap = new HashMap<>();
-    public 学院() {
+    public InstituteController() {
         this.instituteMap = InstituteDatabase.getInstituteMap();
     }
     /*

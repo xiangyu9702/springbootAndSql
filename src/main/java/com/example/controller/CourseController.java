@@ -11,9 +11,9 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value="/课程")
-public class 课程 {
+public class CourseController {
     private Map<Long, Course> courseMap = new HashMap<>();
-    public 课程() {
+    public CourseController() {
         this.courseMap = CourseDatabase.getCourseMap();
     }
     /*

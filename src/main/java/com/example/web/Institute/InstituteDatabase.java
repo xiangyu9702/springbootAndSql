@@ -157,7 +157,7 @@ public class InstituteDatabase {
                 se.printStackTrace();
             }
         }
-        return "删除失败";
+        return "删除成功";
     }
 
     public static String updateInstitute( Long id, Institute institute) {

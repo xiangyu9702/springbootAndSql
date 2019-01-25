@@ -8,10 +8,10 @@ import java.util.*;
 
 @RestController
 @RequestMapping(value="/教师")
-public class 教师 {
+public class TeacherController {
     private Map<Long, Teacher> teacherMap = new HashMap<>();
 
-    public 教师() {
+    public TeacherController() {
         this.teacherMap = TeacherDatabase.getTeacherMap();
     }
 
