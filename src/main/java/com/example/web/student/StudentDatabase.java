@@ -19,7 +19,7 @@ public class StudentDatabase {
         Statement stmt = null;
         try {
             // 注册 JDBC 驱动
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName(Database.JDBC_DRIVER);
             // 打开链接
             conn = DriverManager.getConnection(Database.DB_URL, Database.USER, Database.PASS);
             // 执行查询
@@ -72,7 +72,7 @@ public class StudentDatabase {
         PreparedStatement stmt = null;
         try {
             // 注册 JDBC 驱动
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName(Database.JDBC_DRIVER);
             // 打开链接
             conn = DriverManager.getConnection(Database.DB_URL, Database.USER, Database.PASS);
             // 执行查询
@@ -110,7 +110,7 @@ public class StudentDatabase {
         PreparedStatement stmt = null;
         try {
             // 注册 JDBC 驱动
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName(Database.JDBC_DRIVER);
             // 打开链接
             conn = DriverManager.getConnection(Database.DB_URL, Database.USER, Database.PASS);
             // 执行查询
